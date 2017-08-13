@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    02bb027073dd5035001a1a38107279938b91864ca028a97a1ec17651190d8adf  graviocoin-0.1.6-win-unsigned.tar.gz
-    9b9fc0850c236e398c65fcde75492d2314e81ab88ec84ac75b47a64b633edd14  graviocoin-0.1.6-win32-debug.zip
-    6c19988bdde6bc26de0b90576860791ec4b5677d180e071bd3ae5089a229e8f1  graviocoin-0.1.6-win32-setup-unsigned.exe
-    ad14aa54508d21ab41ce7c42bb01854253c10fb1a0ee37cc6eaeb2080cf4e58c  graviocoin-0.1.6-win32.zip
-    07b4e77549714e23512652575e960e0ee47f8763f3ad3227097d9105a72ec361  graviocoin-0.1.6-win64-debug.zip
-    e88efecac03673f96db169cec409970b1cb6e791a28639c4fd5d2456204275e5  graviocoin-0.1.6-win64-setup-unsigned.exe
-    e38d2f03a3127a91bef450fa7fc83134153244770c5f5930979f62f6dbd6401b  graviocoin-0.1.6-win64.zip
-    cfd5a92d533ca9fbcc0978045ad851e13a59a09a601df618383fbd1fa5963275  src/graviocoin-0.1.6.tar.gz
+    650f9923595f5716cdc75e4e058025b7c2c6aa221306377c229194046b9b0b61  graviocoin-0.1.6-win-unsigned.tar.gz
+    73f9e9b21051c05f4d1899f27beaf9227c2e178649e8bcb7fbfbf35e8d80fbdf  graviocoin-0.1.6-win32-debug.zip
+    d2509eed06f48e9c6aae23e258b3d925205e33c24b4b85d5ff0786a8295e3333  graviocoin-0.1.6-win32-setup-unsigned.exe
+    a89b2b62c7573976486bfff4bdda781aa45cc22a33a59fb9825fd41fe1dbcb47  graviocoin-0.1.6-win32.zip
+    8bd9502f63d929d229650ba11f3d37916a069d0f338509c62f2dd446513a3833  graviocoin-0.1.6-win64-debug.zip
+    64e4ec4ac781e55c5c898ee21bedd0d9348045a10252eece0603e9c531d6a34e  graviocoin-0.1.6-win64-setup-unsigned.exe
+    4bf3da790cd9677975f2caf2d4c2c4bcce9777e145e3b4035c88d138a95315bf  graviocoin-0.1.6-win64.zip
+    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
-    d535ce23dad5ed875701efa4514c4e1f252b812f0af1063a4c5145c538f540e6  graviocoin-win-0.13-desc.yml
-    git:f22ed5c70b45b05e630e142517b97676c9424a38 graviocoin
+    6828c00e51b19eb58911d78143b1b9dd87d5f8acab4e921e98596448ea878ad6  graviocoin-win-0.1.6-desc.yml
+    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -70,9 +70,9 @@
       bd48fc145e3c89ee027766c8197feef6450b7480d948f61d865788c5eabbc753  gcc-mingw-w64_4.8.2-10ubuntu2+12_all.deb
       347a0e747092e55d8c34805b39de3e432735e1485b923a2ed06ddac2ce41a277  gcc_4%3a4.8.2-1ubuntu6_amd64.deb
       7b13d05bb8a323a50bbb9b8c93641b0374c3db27aa94c035c7a9a8ced013b8fa  gettext-base_0.18.3.1-1ubuntu3_amd64.deb
-      16823ef950a9f9197d40203004ec69f5241ddd3d26a6364b64ba559cc21048d4  git-core_1%3a1.9.1-1ubuntu0.5_all.deb
-      18996cdcd611161098e9a47a907ee24b248ea3ee386c757aa6d4f4945ca82fa7  git-man_1%3a1.9.1-1ubuntu0.5_all.deb
-      073566e9304d9c15bb5a77bda6c490ecb1d6697b8791841bfe3ebd0d16b881f1  git_1%3a1.9.1-1ubuntu0.5_amd64.deb
+      8d068bf308adcab4735f13b10079ecb929770dee7626f35ec6ecc0c70f12441b  git-core_1%3a1.9.1-1ubuntu0.6_all.deb
+      919ecf4c483f8431987ab0dff1996559ca85b001024f485339b9a046ca13bf1e  git-man_1%3a1.9.1-1ubuntu0.6_all.deb
+      8068c8c3d9b003df237d347d12cad75ba0702e8ad951cc1a150a44e93eb776c2  git_1%3a1.9.1-1ubuntu0.6_amd64.deb
       b9c2e6b3c58d84658ae658a5f3393b12138b14d95f8143e01f98f6d42ad3f9d2  gnupg_1.4.16-1ubuntu2.4_amd64.deb
       432814ef947a4ae865e5cac441a418b4de59f78e930d1c5c5db41b4986542b54  gpgv_1.4.16-1ubuntu2.4_amd64.deb
       1b039040096eff8b1094803d8313caf325cfee3a1699afe6374027cb35974e42  grep_2.16-1_amd64.deb
@@ -236,7 +236,7 @@
       7e60f2cd2710f03c7a4123b432fd97ce10a46669b7cd9b94b93214026b005c7c  libssl1.0.0_1.0.1f-1ubuntu2.22_amd64.deb
       f73e58e75c25bac399f9babefc9fb0120e084333a937065e513fc0d597cb6ddb  libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb
       4a2058e75601ecf0d74238cd17041490fbc65352010a0ffe78682ef4f2686ea3  libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb
-      c68fec75457de9cceafdc4f254ef63cf6fe52c9b37d4b46837714799a91d8beb  libsvn1_1.8.8-1ubuntu3.2_amd64.deb
+      58442bb3a98f39798d59d4f5e6fa3fa44877ef78022d28015f4800909f1e7285  libsvn1_1.8.8-1ubuntu3.3_amd64.deb
       b8de2213e740ad91dd3d400a2fddc28cc8323dd2c1e5bb850fbc359fb09ebc7c  libtasn1-6_3.4-3ubuntu0.5_amd64.deb
       b539958015d8cdc29b124d8073dcb450fc7fa99436b69038b480a5547a75755a  libterm-ui-perl_0.42-1_all.deb
       3d999514eebd87b978cde1b0e625408272824931312b1ef701319d8e85c4ece0  libtext-charwidth-perl_0.04-7build3_amd64.deb
@@ -262,13 +262,13 @@
       5e5f7aa53a33175c9ccc3087ad592e64f8f4a7891ad31d0247689d187c244f24  libxmuu1_2%3a1.1.1-1_amd64.deb
       ce6486e1bf18818735fd9b6aca6659dbfe73b3cb0d40558fb559fae3dc1746b0  linux-firmware_1.127.23_all.deb
       39b3c737d14c9bcada6bd79f7da8d0e74deba15fe76feb8e10bf29462d610c89  linux-image-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      bffefb8cceec5c4c9ca565c3d864568804008dffc3f804d518bbc5a0dfed9223  linux-image-3.13.0-125-generic_3.13.0-125.174_amd64.deb
+      55edfa5165b2f3155759531ceecbcfe131e5d593c8d0de10c1ebab652edd00c1  linux-image-3.13.0-128-generic_3.13.0-128.177_amd64.deb
       4ca3fdcb3da83993f23c66b464e657a8d3ad7922f48623b6f25e5f33452078cd  linux-image-extra-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      436ff0b8b264e6115c4f8aa0183282de3809c0e37783e27213afd04adf25273d  linux-image-extra-3.13.0-125-generic_3.13.0-125.174_amd64.deb
-      157b8dad9ee9e09927c71333d26f8e454efed51e2cdc64b3c3a1aea233e0500a  linux-image-generic_3.13.0.125.135_amd64.deb
+      c0086c6e5b59a12b633b043203c850428bf001ccd56039ed159972b2b5fdf2c0  linux-image-extra-3.13.0-128-generic_3.13.0-128.177_amd64.deb
+      6704898a6e92b26593e5041d5639fc7afa6cfe03d3784d1d90c409cfe07ef369  linux-image-generic_3.13.0.128.137_amd64.deb
       d8db3ab2c5d6e3001a35c3fee6d49bda2901e37b22ba63e1ab62d651716ef095  linux-image-virtual_3.13.0.123.133_amd64.deb
-      098b6d6a5810229058376a205d120d09fbf48fc71576840914979402434d9d4a  linux-image-virtual_3.13.0.125.135_amd64.deb
-      63915ad5776550b7be1c4246600cfd27a44e54ca44e7c3deab8520a5f15c7c9d  linux-libc-dev_3.13.0-125.174_amd64.deb
+      2717a92e940edd6b84f18f669c241d7b9fa2b9ab8d4b3cf689bb2c1dac4a9d05  linux-image-virtual_3.13.0.128.137_amd64.deb
+      109e95109b626db61f22653ef23f0e54b57c6bb22f09a0359fa380e51a994bf7  linux-libc-dev_3.13.0-128.177_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       c375ea23cf7c61fdc7d2029b6661481d2163d6fec6c5fd78ec8fd8fd5ce4c048  lockfile-progs_0.1.17_amd64.deb
       dc6f2853f4fe43a4f29dbb708a1d60fc2ebcdaecc4e552bd6b534ec08e0196a7  login_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
@@ -298,7 +298,7 @@
       2a8a27ca24e402f6d23ff730179812ee47cb067d1f3f82e627ec9bdcdeff1637  netcat-openbsd_1.105-7ubuntu1_amd64.deb
       baeed7c0c9efbb59af736dcd342befd8f51c343d430db50e71d13740065c0ad1  nsis-common_2.46-7_all.deb
       19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
-      3bd585b88da9f9782c6165b97be4cd8ef479ed5333aaed81b3b5df6c3e20e376  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.11_amd64.deb
+      8c1a0a507455f2f819b8874b9c2702df9544829259bd437cb8f7cab311047f9a  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.12_amd64.deb
       5ed28bf73a7693927449844a258dab9e7e06b32315d3225ab95f632a30435d27  openssh-client_1%3a6.6p1-2ubuntu2.8_amd64.deb
       fd2fdce0aa239e86212eac9872009f6935962970cce1d8d6a04ee1bff8ce61e4  openssh-server_1%3a6.6p1-2ubuntu2.8_amd64.deb
       adcc0557ddb922944fe8f359d2fad4befd606c2e922f11eea9353d9fccda40c9  openssh-sftp-server_1%3a6.6p1-2ubuntu2.8_amd64.deb
@@ -328,11 +328,11 @@
       af5a20614ca5f5465d213f8da561739facbc375b724ff25cbded840373c9ee32  readline-common_6.3-4ubuntu2_all.deb
       771209b7c37040c82ea0d0609a8780ee4506f6ee06d93ac556db92f7df67b357  resolvconf_1.69ubuntu1.1_all.deb
       0ec38f130f6d0f88340a7da68c1da2e2774a59b6bee71920c26ef7db4f0760c8  rsync_3.1.0-2ubuntu0.2_amd64.deb
-      146872830da0a53eba07671bb2e559b802cd069b94ee966da0e1484905e847c0  rsyslog_7.4.4-1ubuntu2.6_amd64.deb
+      8660b31d53202d0f6bdace862140e9fa710ed8cc7fa85cf7f276f6a6a8877c8e  rsyslog_7.4.4-1ubuntu2.7_amd64.deb
       56e0576c8e0356cc2ea0d0c15c970714c14a42e9c35ab09999daca602f57c499  sed_4.2.2-4ubuntu1_amd64.deb
       de75c4690051dfb43c8faa8f37afe276f78d41dc89d9258fa080e6a7a450c826  sensible-utils_0.0.9_all.deb
       14e778ad33664ead8275708a76c209417906f3db64e711df0711050fd7491d13  ssh-import-id_3.21-0ubuntu1_all.deb
-      5cdbd9c62c8ff42c4e2a9cda9472df346454f5fb1211471eb465feb7e4ab731b  subversion_1.8.8-1ubuntu3.2_amd64.deb
+      134a33656ac803a76d480d7a3286cf832fd244ebeb05e4399e9f8ed725c42bc7  subversion_1.8.8-1ubuntu3.3_amd64.deb
       7d2382b89255bf6a260fc7d9365cfd2f3950e954bcc39a05ce505fea9f6adfba  sudo_1.8.9p5-1ubuntu1.4_amd64.deb
       6871cc9dc074524d426611e90cc13e5c23eac544a8bdcbc49b9fc8f02ee9f725  sysv-rc_2.88dsf-41ubuntu6.3_all.deb
       aafbbc83fb16ed1fada82d2e57e310baad0678ab32bb358ce0a2e0fc13c544b1  sysvinit-utils_2.88dsf-41ubuntu6.3_amd64.deb
@@ -446,50 +446,50 @@
     04aac57f081ffa3a2ee5ed04887be9e205df3a7ddade0027460b8042432bdbcf  zeromq-4.1.5.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    57a5384c61e5e32f1dadcb706c7830d2b757809444bb5473fdc376def0b35e16  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz
-    c0480751d76e78329ebcf05e9dd443647dbcf33220ddecd6d5edf84310828f5e  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz.hash
-    5ee6f01c5bdbfaa29b6e3feb44ff4030944121271f37d9ae9e740cf49ef67581  i686-w64-mingw32/boost/boost-1_59_0-daca7eb9876.tar.gz
-    eac0b41e2f748b1041126121bbf9e19e4da8e38a5d0899fb9dc938aa17bd8f14  i686-w64-mingw32/boost/boost-1_59_0-daca7eb9876.tar.gz.hash
-    fca890aa4155754f15c54e0deda321c1f8dccb80b318ad1949fbb084a72f4388  i686-w64-mingw32/libevent/libevent-2.0.22-6d7fa930df1.tar.gz
-    3fcadb27284d4faab548ae026b20e492f4c83147145a63e987a7bb5f43b9ffc1  i686-w64-mingw32/libevent/libevent-2.0.22-6d7fa930df1.tar.gz.hash
-    a2b42ce76332b789470ffa315e3defb7b4d53c3582910ad2a8410e1046b80329  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz
-    86bc1b2157db0b29c4825ceb07b8e0fb138bb7b17242f7037dcd599b0e148aa1  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz.hash
-    46823bfe070665eba29f59b741b031c5133891cf8dbea64c21e6ee4cd04677a3  i686-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz
-    e764911a3b3f4df8ab6b87b9285c6e4db3f9b3baa4edc087ef70ed710290ccce  i686-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz.hash
-    35f7d78d1158b0ed007058c5f2f7591bc89c4abaaca04ba87cb436bb343f7bb2  i686-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz
-    b590f8486951fdbc3f329313f5308e3e9db65207154a62ff74564c03c17bf981  i686-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz.hash
-    20b081b23c3061a0a0bcfba7c3ed3770c2c15d38a8558769d494a289264b90fe  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
-    b10dadfe2d83726ccd7221d35c94273606f1bfef54eba4cda2bde6fb335acb59  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
-    5cf14c46956337a0603076df24ef17fd931aafb8e1e5cd35e1e954a010f1ed5b  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz
-    cfe61dfeeb95603cc8906cae0aa427747e387ec82d198fa04f76f8b1a59e48a1  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz.hash
-    1263af3d5d72929fad4c08afca361ddf724c3e9765982d24c4bb6f2a5e63a23d  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz
-    1a1d4f27fce008ad71ce7212476270926a8182844e5ebd99fcc5fed62fc64ee8  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz.hash
-    9adf8db6e565b7744c93ad47457c9358308732d40febd66ec1127b08523f4a3d  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz
-    3d3d16397da306813e9c51dadc10107246e87318b6959b611f83de724354d8e8  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz.hash
-    6f6ab5bd786d7cbc962f6b7099aa80c84885dd518835a0ed04136240698325f5  i686-w64-mingw32/qt/qt-5.6.1-7e54d3e4caf.tar.gz
-    1b3c452bda3bd0104b1c1bda382b542010ae41e71d9191779d1616d7e0d64520  i686-w64-mingw32/qt/qt-5.6.1-7e54d3e4caf.tar.gz.hash
-    ad1a7e6438d9a4b2a126e1afbc6a49cbede5342a3578b6cd215919ce6c0e314c  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz
-    56a4f36c0a7ae61078b6d5fe9b821e0a8bab0676eba6d781c70dd3415b6835e6  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz.hash
-    612acf589894b6d4814bc712867e4b10278c41ea5b5ff45567e80164fa262250  x86_64-w64-mingw32/boost/boost-1_59_0-68550199124.tar.gz
-    4e46078a260e645fbdab7f07c8836c477cc66525770c6dd157677ddcbac860d9  x86_64-w64-mingw32/boost/boost-1_59_0-68550199124.tar.gz.hash
-    b4c1e2e7df0d3afbf2066e01ef97df943368c19adc152b0bd7c0850e28d35f7f  x86_64-w64-mingw32/libevent/libevent-2.0.22-7ece0cb62c3.tar.gz
-    2fd5bb7c2d0ea3c30ad3b8cac4e4bb734938992ea34579a02daf366cf2832ab7  x86_64-w64-mingw32/libevent/libevent-2.0.22-7ece0cb62c3.tar.gz.hash
-    2ed808c0ce2d3ea89b3d596889e50f3839aae584208c8610e847d6992dcb7e17  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz
-    32372cc4c863ccaf0567e13099301c151a66de465050991993806fc26d994e05  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz.hash
-    49b83fd255b8d77e0697614c88135c3064cd089b2e81d1ce14130248b55e7615  x86_64-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz
-    ef8647fa0d495d820074c1f00314c48a2042cf70ae494894e455004fae02463d  x86_64-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz.hash
-    35f7d78d1158b0ed007058c5f2f7591bc89c4abaaca04ba87cb436bb343f7bb2  x86_64-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz
-    b590f8486951fdbc3f329313f5308e3e9db65207154a62ff74564c03c17bf981  x86_64-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz.hash
-    0e8f6159558fc0a90a276b0876d1cb27bc4815ff9094e0ebb51d0abe53d316cc  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
-    509e2471da0a86ac037842affe06eed9a6c21876ec1dc7255485282dd8e79de9  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
-    ca12d6cd56a456ea1bc7d998f16249ff9d82c69e364fd7e51d6ae7cbd878ceb5  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz
-    69ee2e05b252fba8b666633e88ff9837c302054c5f835893249eb2ba13fc8e00  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz.hash
-    7853876cfcedfb55d655c9bc107c7ddbf819c6eb8e1fc004d2f372c81971d50c  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz
-    5410b9ea4a1a41bb1e69ef795ce644090bd80f183cdfebac8210b96a27325da7  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz.hash
-    4edef916c20c1040263389c105efee3e481db965bbe311049da120437a62d4d5  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz
-    1a62defe46777d6561150cbb05e876e783548a412b7e70dfadf3cf5b824b724f  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz.hash
-    cb95eb385037b362253cf60a689f90e74c881f7720b0208809a87b8f9e0ffd64  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz
-    c020cfe384f08fd3cd02c2bd58501fd34a53f46570837dc06fa6f90d25e14900  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz.hash
+    6950e37e4d46a9b70201df2a4cafd53968432eb4fa9572f508dcc3f2ba27059f  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz
+    1a99d29b41f64d4533831e0912be50fdd4088a93bf33d2df62c6db05ab5d519d  i686-w64-mingw32/bdb/bdb-4.8.30-5a69fe6cb10.tar.gz.hash
+    02764f9c3f262dc8de3772de9d83e16cc860adafc19ee1c444080d5824365013  i686-w64-mingw32/boost/boost-1_59_0-daca7eb9876.tar.gz
+    cee6e6744c626700c8e3e7277c3d47593f610267ed9665447191043eee6bf93c  i686-w64-mingw32/boost/boost-1_59_0-daca7eb9876.tar.gz.hash
+    78d16da0e56d24bfc69830a5dedb1632ab1e7842702e9fe258d5c2d3c88a64ad  i686-w64-mingw32/libevent/libevent-2.0.22-6d7fa930df1.tar.gz
+    cb771aa8ea9a893afacc71ee9beae390b3190b5a1ab49f0f53f055be79a0f669  i686-w64-mingw32/libevent/libevent-2.0.22-6d7fa930df1.tar.gz.hash
+    75f9ffab1fb8a0ef8dd2d7327e885bfe0221d9a15ab51d6af94c221c2d550539  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz
+    2288d484f6271b9eb4456cc97aeccf038dc94cbdc51b82ec66e8ff898af60ea0  i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-2a1eaff71b3.tar.gz.hash
+    992fe07a228044693f1ee2a50d94f804be3e2fcd3e733c088cfc9dcc70072519  i686-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz
+    42d9906154fe0ef9bc4e88612524c09289d41c24abc9ac12a7518ef7b00051a1  i686-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz.hash
+    66066e5c238695740304b1155fb1657b276c8c688bf46ba55b15186d0d5f39e8  i686-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz
+    8cbe19ccfb55875ce6bf2682582f180d29df7cfc24f9ba5150f099aaaf8487d4  i686-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz.hash
+    8eb53d19b035e38171dd894faf60273c17b5d4a310c19b98da742d5517012bfa  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
+    f231ce31cb7c45260aa378c9c62d565b01b9b55715096276bd0a019940d8e8ec  i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
+    710b297a747c2eb52568386da38ebc19f38fc8a8dcb6238681a7759281cc0665  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz
+    57ce40acdadef0c0caafdcbf8d94d014e59013085bac07b14dc93e768304400d  i686-w64-mingw32/openssl/openssl-1.0.1k-5324fba4122.tar.gz.hash
+    33a36665475e6e9c1a62ffa4e691903109aa670e9d83014622426c3b26d2751f  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz
+    dba83c1ea69aeae5dae8bbbe3a0f655ce8fa99bb43f24acff7c81e95aab843ad  i686-w64-mingw32/protobuf/protobuf-2.6.1-2a80d1c30ee.tar.gz.hash
+    22af92a4b860803b5e6b150661b35a9aee98e03260b3494b1e10b8238d23ad5f  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz
+    2cdf8129fcc28eb96f93fbabf7302fe3d351b2313540f8d02a43883ebbeb1caa  i686-w64-mingw32/qrencode/qrencode-3.4.4-f180b7d3873.tar.gz.hash
+    81d7f2f98a1934238818a7a448a07fbff6a99671a1c93f045b5013e0b0e7c737  i686-w64-mingw32/qt/qt-5.6.1-7e54d3e4caf.tar.gz
+    a7764c93a9d4f56814f34baf961279e84568a95f569830ea85f6d94d554ca5c4  i686-w64-mingw32/qt/qt-5.6.1-7e54d3e4caf.tar.gz.hash
+    f2fa382ec7b2b8011306d2c0397812fac5c4f84cbe04eb170f7151739f9aa7a2  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz
+    78e15adf467dd1a9bd1455fc9cd52f56715b249cd13788285a435fc394bffbfa  x86_64-w64-mingw32/bdb/bdb-4.8.30-ee92bee2305.tar.gz.hash
+    0cb873ed3a4edff87b8c3802a2e1b6c5fc08f62bf11daff759b850a59fd4d425  x86_64-w64-mingw32/boost/boost-1_59_0-68550199124.tar.gz
+    65b8835cd2eba4b49f9e102b82e83160edc59d189c950969d2ff3eb8d71c9368  x86_64-w64-mingw32/boost/boost-1_59_0-68550199124.tar.gz.hash
+    28e797603487b3ac23435868711e920b63ad17f188c464bbc53ff1fcc9b3bba1  x86_64-w64-mingw32/libevent/libevent-2.0.22-7ece0cb62c3.tar.gz
+    56da10b773d6dc439a8f7ac9f5d7ad9c76c40307eecb4a712dbb6ebd9a97428d  x86_64-w64-mingw32/libevent/libevent-2.0.22-7ece0cb62c3.tar.gz.hash
+    f30b80ac5aec32cf6ef20fff877f25e56ae53799843b2ef623444748207b496c  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz
+    b96dd9f9f3953df2fd0cee8f6940c5084b7a7c74c57957f5d6c4c39b51ef782a  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20170509-23fda84b0d7.tar.gz.hash
+    ee78e5d1128a9ab4fb5bb255656989713b2a3793c239458397f94bb267c10cd5  x86_64-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz
+    0076438ae9491f8644e4b6514690054544e98857e3857864376b858b2f158529  x86_64-w64-mingw32/native_ccache/native_ccache-3.2.5-346580a46e9.tar.gz.hash
+    66066e5c238695740304b1155fb1657b276c8c688bf46ba55b15186d0d5f39e8  x86_64-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz
+    8cbe19ccfb55875ce6bf2682582f180d29df7cfc24f9ba5150f099aaaf8487d4  x86_64-w64-mingw32/native_comparisontool/native_comparisontool-8c6666f-2c66bd103cd.tar.gz.hash
+    8efb9e4f0817cf73274125c3cda0630e57fc7ade86f12551926dfde0031ae9b8  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz
+    acca7fd01ca536733099a172ef94ac814903d90065b1732da3297cfe43ec7dd2  x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-e228208c78f.tar.gz.hash
+    39c37249d3e4b8ce4dddcacb8066836a53c5f240657dd8ffca5b8415834d2018  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz
+    23bcc501b008756e87ceebc7863a5607a678a0a6b1762586bc8beb1e800f748b  x86_64-w64-mingw32/openssl/openssl-1.0.1k-c4a5ead41ed.tar.gz.hash
+    b62e781262eeb4fd4c931457c828bca4ceb14f51a619f476d02921d747010786  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz
+    96ad05549db184dfab942d14770d71fae8974cfdc2287e08fb0589bfb1d94655  x86_64-w64-mingw32/protobuf/protobuf-2.6.1-ce6c9ad7520.tar.gz.hash
+    ba4ba49b9f711e6da47d74af9e8e5a594d25166950fda234fcb8be06229cf34b  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz
+    99e764d650993748b85eec5b7eedbf2fc516e3cbe4d9200040364ec17df28071  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-0376a372ca6.tar.gz.hash
+    2da2615e0f3fb1601a9226bf207dd6c4014016c30b0389614dcdf58473c74c3c  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz
+    b4c9ec82d24885c863b71f435cef489b4c6c5462ab666231daaa80811ee78029  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz.hash
 - release: gio.0.1.6-win-unsigned
 - name: graviocoin-win-0.1.6
 - type: build

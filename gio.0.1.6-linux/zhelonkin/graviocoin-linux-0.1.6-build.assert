@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    923be748de87b7afa6ad4efa5b7ffefc35defe7f0ad0b11b91906fcbb82cd471  graviocoin-0.1.6-aarch64-linux-gnu-debug.tar.gz
-    df8ceb339871c21bd4a831d36f7308d9562db4cf14f6756c8a7cc0453f07a7e3  graviocoin-0.1.6-aarch64-linux-gnu.tar.gz
-    d30dbb565bb6a2a35f12254a8b94adf56c055d29b91ca8351df50c7554193e06  graviocoin-0.1.6-arm-linux-gnueabihf-debug.tar.gz
-    4b08d06f4cffbfe06593485a7a80c644b734e012ba255d2b918ece990bbb5843  graviocoin-0.1.6-arm-linux-gnueabihf.tar.gz
-    dfa947211cf9bde9feb567de4c958412efcd4e06e35b508724232301860b66cf  graviocoin-0.1.6-i686-pc-linux-gnu-debug.tar.gz
-    d2705fd52d0ec9df3420e5d12b185dbb43e8f939a38a130ff3f2925e572f25cd  graviocoin-0.1.6-i686-pc-linux-gnu.tar.gz
-    d2db8237be743b66edc669b4a3ff57c0b385b3260216cdc0de155f1a54d0307b  graviocoin-0.1.6-x86_64-linux-gnu-debug.tar.gz
-    57ebabefe316fc0229b0eba5a76ddb627651bf6c20bef7e122e2e577667f9bb2  graviocoin-0.1.6-x86_64-linux-gnu.tar.gz
-    bea0418008265096b100e5e304b9401f3e8ce7cac794361ce46da681e5e6ada5  src/graviocoin-0.1.6.tar.gz
+    e0090fb6b3d2b2451ce19059f7a264998c893c369ea2a4bb7453d299240b5458  graviocoin-0.1.6-aarch64-linux-gnu-debug.tar.gz
+    4e57e44fd3e1ad8c971ef266f017a050d24a4d372383e0da385121d5099b5445  graviocoin-0.1.6-aarch64-linux-gnu.tar.gz
+    d0f080e3c789f63097db371e33bdf1063f73be6efc46f00c4ce28d065d34f9be  graviocoin-0.1.6-arm-linux-gnueabihf-debug.tar.gz
+    5991937f6c24ed56829b6d6d6f9a2e917c67e28b3cf6365d2f08314190add873  graviocoin-0.1.6-arm-linux-gnueabihf.tar.gz
+    f01d4f9caf3432dda6eb5416017359485c2dfef982c8922d884bee37cd1e57c8  graviocoin-0.1.6-i686-pc-linux-gnu-debug.tar.gz
+    5ec492e615d610304efdd6cacc791efdf6852a5eaf36379682d17a08b9ec67e2  graviocoin-0.1.6-i686-pc-linux-gnu.tar.gz
+    25e165d235f0a4f6f8964990d0d342273053240cd4f34913e17c6bb07252be17  graviocoin-0.1.6-x86_64-linux-gnu-debug.tar.gz
+    caf7a82304006f5cb20aedaef58d80eb72188fd5cb7359279f296243aa767b72  graviocoin-0.1.6-x86_64-linux-gnu.tar.gz
+    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
     b47c4a1bc896386147c6025af142534c7d65da47aeb68f82d8592fd34baaf0b1  graviocoin-linux-0.1.6-desc.yml
-    git:a93132b333e9fc230b30bbc8d98365e7139b866d graviocoin
+    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -82,9 +82,9 @@
       b94ac0b6519f4c85e65420aba5dc1b473853007a1fe64d17d6b3cb9d84461095  gcc-arm-linux-gnueabihf_4%3a4.8.2-1_amd64.deb
       347a0e747092e55d8c34805b39de3e432735e1485b923a2ed06ddac2ce41a277  gcc_4%3a4.8.2-1ubuntu6_amd64.deb
       7b13d05bb8a323a50bbb9b8c93641b0374c3db27aa94c035c7a9a8ced013b8fa  gettext-base_0.18.3.1-1ubuntu3_amd64.deb
-      16823ef950a9f9197d40203004ec69f5241ddd3d26a6364b64ba559cc21048d4  git-core_1%3a1.9.1-1ubuntu0.5_all.deb
-      18996cdcd611161098e9a47a907ee24b248ea3ee386c757aa6d4f4945ca82fa7  git-man_1%3a1.9.1-1ubuntu0.5_all.deb
-      073566e9304d9c15bb5a77bda6c490ecb1d6697b8791841bfe3ebd0d16b881f1  git_1%3a1.9.1-1ubuntu0.5_amd64.deb
+      8d068bf308adcab4735f13b10079ecb929770dee7626f35ec6ecc0c70f12441b  git-core_1%3a1.9.1-1ubuntu0.6_all.deb
+      919ecf4c483f8431987ab0dff1996559ca85b001024f485339b9a046ca13bf1e  git-man_1%3a1.9.1-1ubuntu0.6_all.deb
+      8068c8c3d9b003df237d347d12cad75ba0702e8ad951cc1a150a44e93eb776c2  git_1%3a1.9.1-1ubuntu0.6_amd64.deb
       b9c2e6b3c58d84658ae658a5f3393b12138b14d95f8143e01f98f6d42ad3f9d2  gnupg_1.4.16-1ubuntu2.4_amd64.deb
       432814ef947a4ae865e5cac441a418b4de59f78e930d1c5c5db41b4986542b54  gpgv_1.4.16-1ubuntu2.4_amd64.deb
       1b039040096eff8b1094803d8313caf325cfee3a1699afe6374027cb35974e42  grep_2.16-1_amd64.deb
@@ -290,7 +290,7 @@
       e2a37b4b22aca2a3aa10753040185bff87be952d089205597bdec6f46f20834b  libstdc++6-arm64-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
       cb8fc098f277cf575ddf8f30ee5aeeb086b6627aa5fd6afc2ae330c49ce38cb8  libstdc++6-armhf-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
       4a2058e75601ecf0d74238cd17041490fbc65352010a0ffe78682ef4f2686ea3  libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb
-      c68fec75457de9cceafdc4f254ef63cf6fe52c9b37d4b46837714799a91d8beb  libsvn1_1.8.8-1ubuntu3.2_amd64.deb
+      58442bb3a98f39798d59d4f5e6fa3fa44877ef78022d28015f4800909f1e7285  libsvn1_1.8.8-1ubuntu3.3_amd64.deb
       b8de2213e740ad91dd3d400a2fddc28cc8323dd2c1e5bb850fbc359fb09ebc7c  libtasn1-6_3.4-3ubuntu0.5_amd64.deb
       b539958015d8cdc29b124d8073dcb450fc7fa99436b69038b480a5547a75755a  libterm-ui-perl_0.42-1_all.deb
       3d999514eebd87b978cde1b0e625408272824931312b1ef701319d8e85c4ece0  libtext-charwidth-perl_0.04-7build3_amd64.deb
@@ -325,16 +325,16 @@
       5e5f7aa53a33175c9ccc3087ad592e64f8f4a7891ad31d0247689d187c244f24  libxmuu1_2%3a1.1.1-1_amd64.deb
       ce6486e1bf18818735fd9b6aca6659dbfe73b3cb0d40558fb559fae3dc1746b0  linux-firmware_1.127.23_all.deb
       39b3c737d14c9bcada6bd79f7da8d0e74deba15fe76feb8e10bf29462d610c89  linux-image-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      bffefb8cceec5c4c9ca565c3d864568804008dffc3f804d518bbc5a0dfed9223  linux-image-3.13.0-125-generic_3.13.0-125.174_amd64.deb
+      55edfa5165b2f3155759531ceecbcfe131e5d593c8d0de10c1ebab652edd00c1  linux-image-3.13.0-128-generic_3.13.0-128.177_amd64.deb
       4ca3fdcb3da83993f23c66b464e657a8d3ad7922f48623b6f25e5f33452078cd  linux-image-extra-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      436ff0b8b264e6115c4f8aa0183282de3809c0e37783e27213afd04adf25273d  linux-image-extra-3.13.0-125-generic_3.13.0-125.174_amd64.deb
-      157b8dad9ee9e09927c71333d26f8e454efed51e2cdc64b3c3a1aea233e0500a  linux-image-generic_3.13.0.125.135_amd64.deb
+      c0086c6e5b59a12b633b043203c850428bf001ccd56039ed159972b2b5fdf2c0  linux-image-extra-3.13.0-128-generic_3.13.0-128.177_amd64.deb
+      6704898a6e92b26593e5041d5639fc7afa6cfe03d3784d1d90c409cfe07ef369  linux-image-generic_3.13.0.128.137_amd64.deb
       d8db3ab2c5d6e3001a35c3fee6d49bda2901e37b22ba63e1ab62d651716ef095  linux-image-virtual_3.13.0.123.133_amd64.deb
-      098b6d6a5810229058376a205d120d09fbf48fc71576840914979402434d9d4a  linux-image-virtual_3.13.0.125.135_amd64.deb
+      2717a92e940edd6b84f18f669c241d7b9fa2b9ab8d4b3cf689bb2c1dac4a9d05  linux-image-virtual_3.13.0.128.137_amd64.deb
       3d26bdc4ff0de9c4451d8e782768a5688c3dbac7676318467f78f2a1e701afb3  linux-libc-dev-arm64-cross_3.13.0-12.32cross0.10_all.deb
       26bc3c1bfcaa158bed2e044eb90c1aa3d608129ce3c610cfa90202adc1b17732  linux-libc-dev-armel-cross_3.13.0-12.32cross1.104_all.deb
       327cfa8923b3a65988a1628d9dc620ed440d3fb89212a4a8a33ff7777d9cf4aa  linux-libc-dev-armhf-cross_3.13.0-12.32cross1.104_all.deb
-      63915ad5776550b7be1c4246600cfd27a44e54ca44e7c3deab8520a5f15c7c9d  linux-libc-dev_3.13.0-125.174_amd64.deb
+      109e95109b626db61f22653ef23f0e54b57c6bb22f09a0359fa380e51a994bf7  linux-libc-dev_3.13.0-128.177_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       c375ea23cf7c61fdc7d2029b6661481d2163d6fec6c5fd78ec8fd8fd5ce4c048  lockfile-progs_0.1.17_amd64.deb
       dc6f2853f4fe43a4f29dbb708a1d60fc2ebcdaecc4e552bd6b534ec08e0196a7  login_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
@@ -358,7 +358,7 @@
       9551f9f6e0aedf75072b306978474e5b34ad61160f6abb0b3ef9a758db01b566  net-tools_1.60-25ubuntu2.1_amd64.deb
       ca6cb202c674c6b8615b6560dc9c6cd87530e8862ccc9aa79c888de6b2154377  netbase_5.2_all.deb
       2a8a27ca24e402f6d23ff730179812ee47cb067d1f3f82e627ec9bdcdeff1637  netcat-openbsd_1.105-7ubuntu1_amd64.deb
-      3bd585b88da9f9782c6165b97be4cd8ef479ed5333aaed81b3b5df6c3e20e376  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.11_amd64.deb
+      8c1a0a507455f2f819b8874b9c2702df9544829259bd437cb8f7cab311047f9a  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.12_amd64.deb
       5ed28bf73a7693927449844a258dab9e7e06b32315d3225ab95f632a30435d27  openssh-client_1%3a6.6p1-2ubuntu2.8_amd64.deb
       fd2fdce0aa239e86212eac9872009f6935962970cce1d8d6a04ee1bff8ce61e4  openssh-server_1%3a6.6p1-2ubuntu2.8_amd64.deb
       adcc0557ddb922944fe8f359d2fad4befd606c2e922f11eea9353d9fccda40c9  openssh-sftp-server_1%3a6.6p1-2ubuntu2.8_amd64.deb
@@ -388,11 +388,11 @@
       af5a20614ca5f5465d213f8da561739facbc375b724ff25cbded840373c9ee32  readline-common_6.3-4ubuntu2_all.deb
       771209b7c37040c82ea0d0609a8780ee4506f6ee06d93ac556db92f7df67b357  resolvconf_1.69ubuntu1.1_all.deb
       0ec38f130f6d0f88340a7da68c1da2e2774a59b6bee71920c26ef7db4f0760c8  rsync_3.1.0-2ubuntu0.2_amd64.deb
-      146872830da0a53eba07671bb2e559b802cd069b94ee966da0e1484905e847c0  rsyslog_7.4.4-1ubuntu2.6_amd64.deb
+      8660b31d53202d0f6bdace862140e9fa710ed8cc7fa85cf7f276f6a6a8877c8e  rsyslog_7.4.4-1ubuntu2.7_amd64.deb
       56e0576c8e0356cc2ea0d0c15c970714c14a42e9c35ab09999daca602f57c499  sed_4.2.2-4ubuntu1_amd64.deb
       de75c4690051dfb43c8faa8f37afe276f78d41dc89d9258fa080e6a7a450c826  sensible-utils_0.0.9_all.deb
       14e778ad33664ead8275708a76c209417906f3db64e711df0711050fd7491d13  ssh-import-id_3.21-0ubuntu1_all.deb
-      5cdbd9c62c8ff42c4e2a9cda9472df346454f5fb1211471eb465feb7e4ab731b  subversion_1.8.8-1ubuntu3.2_amd64.deb
+      134a33656ac803a76d480d7a3286cf832fd244ebeb05e4399e9f8ed725c42bc7  subversion_1.8.8-1ubuntu3.3_amd64.deb
       7d2382b89255bf6a260fc7d9365cfd2f3950e954bcc39a05ce505fea9f6adfba  sudo_1.8.9p5-1ubuntu1.4_amd64.deb
       6871cc9dc074524d426611e90cc13e5c23eac544a8bdcbc49b9fc8f02ee9f725  sysv-rc_2.88dsf-41ubuntu6.3_all.deb
       aafbbc83fb16ed1fada82d2e57e310baad0678ab32bb358ce0a2e0fc13c544b1  sysvinit-utils_2.88dsf-41ubuntu6.3_amd64.deb

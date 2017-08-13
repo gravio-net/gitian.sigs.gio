@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    2bbc009e933565b49fdbe4d974967923d207cd5b6110d84cb4cb6a8e3d114f76  graviocoin-0.1.6-osx-unsigned.dmg
-    84cc6c3c3f8de93c27cfb9f34ebd3283e07d66e0d984bd08b8653ebbf6284e0b  graviocoin-0.1.6-osx-unsigned.tar.gz
-    030c06cb6854dbe6b5cdd27d147c5ae3ee83362f07c1de27423c3e41bb4015e4  graviocoin-0.1.6-osx64.tar.gz
-    57b1eba4db7412f62016a1644eb00b216c168fada4ad03b5ebba698f3c63a76e  src/graviocoin-0.1.6.tar.gz
+    08cb30507a8ec4c6f7811eea83737cc92e713861a83c2147197bb6ddf8ecefaf  graviocoin-0.1.6-osx-unsigned.dmg
+    004c0a2c81c227569ef7e0913124be2af0a850fb1248c6d09195efa2fc4c80c1  graviocoin-0.1.6-osx-unsigned.tar.gz
+    4e1096678690708fa8a26968fb3582fed3f46a3d32c55bca3adacfa82ef95de0  graviocoin-0.1.6-osx64.tar.gz
+    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
-    2214e801140eada844be5c5fefb1576b204f5fd175130eb787bc10af427879ce  graviocoin-osx-0.1.6-desc.yml
+    9626628a937d9a33d56a55d6ac8677c1eff68e494b36b7f52dae1e5048f9694e  graviocoin-osx-0.1.6-desc.yml
     1df230ac495b0654542af1b2319cbe46850ca6d776b47b3430bf0e2a200fe0b6  MacOSX10.11.sdk.tar.gz
-    git:73ab341cb8c19feb79e5be200cde8a0ce6ef9df3 graviocoin
+    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -27,6 +27,8 @@
       52ad5ed565d6345b6317a999fa2061a2fa5c3780ba35c09cdc1a81692289bb0f  busybox-initramfs_1%3a1.21.0-1ubuntu1_amd64.deb
       5f6be468eae6ac8d97570f27c45d17b8a12de46684b46852d5acf6d1c6634632  bzip2_1.0.6-5_amd64.deb
       dd5f2710c93939e576099f88cebd1f546b832fb118d9a92c0986630af560f8d8  ca-certificates_20160104ubuntu0.14.04.1_all.deb
+      f29b7b1c94e8de8af0df3270023e140e8de8cdc4053edb085c9df3234830bda5  clang-3.4_1%3a3.4-1ubuntu3_amd64.deb
+      cba20bff87764905c86a68317ed0c908126a0d58822ee15d3030563014e0755b  clang_1%3a3.4-0ubuntu1_amd64.deb
       39e9c8633c7cb9885b8f5d36bba0d4b4acaab4d460af60002afbea6e3fd7619c  cmake-data_2.8.12.2-0ubuntu3_all.deb
       3fe5b67784d15c37ea789eb152f269e4183bdb0cc4e1bac87fd474f6b609ef5d  cmake_2.8.12.2-0ubuntu3_amd64.deb
       b66a09332645ab567ad1460825f422a17bd7aea9bf27c8d61d71ec0cfdda31b7  console-setup_1.70ubuntu8_all.deb
@@ -66,9 +68,9 @@
       6c37daaaeee5639add296a826f499b4f1906de3dffde2da763a7858a77065b9b  gcc-4.9-base_4.9.3-0ubuntu4_amd64.deb
       347a0e747092e55d8c34805b39de3e432735e1485b923a2ed06ddac2ce41a277  gcc_4%3a4.8.2-1ubuntu6_amd64.deb
       7b13d05bb8a323a50bbb9b8c93641b0374c3db27aa94c035c7a9a8ced013b8fa  gettext-base_0.18.3.1-1ubuntu3_amd64.deb
-      16823ef950a9f9197d40203004ec69f5241ddd3d26a6364b64ba559cc21048d4  git-core_1%3a1.9.1-1ubuntu0.5_all.deb
-      18996cdcd611161098e9a47a907ee24b248ea3ee386c757aa6d4f4945ca82fa7  git-man_1%3a1.9.1-1ubuntu0.5_all.deb
-      073566e9304d9c15bb5a77bda6c490ecb1d6697b8791841bfe3ebd0d16b881f1  git_1%3a1.9.1-1ubuntu0.5_amd64.deb
+      8d068bf308adcab4735f13b10079ecb929770dee7626f35ec6ecc0c70f12441b  git-core_1%3a1.9.1-1ubuntu0.6_all.deb
+      919ecf4c483f8431987ab0dff1996559ca85b001024f485339b9a046ca13bf1e  git-man_1%3a1.9.1-1ubuntu0.6_all.deb
+      8068c8c3d9b003df237d347d12cad75ba0702e8ad951cc1a150a44e93eb776c2  git_1%3a1.9.1-1ubuntu0.6_amd64.deb
       b9c2e6b3c58d84658ae658a5f3393b12138b14d95f8143e01f98f6d42ad3f9d2  gnupg_1.4.16-1ubuntu2.4_amd64.deb
       432814ef947a4ae865e5cac441a418b4de59f78e930d1c5c5db41b4986542b54  gpgv_1.4.16-1ubuntu2.4_amd64.deb
       1b039040096eff8b1094803d8313caf325cfee3a1699afe6374027cb35974e42  grep_2.16-1_amd64.deb
@@ -82,8 +84,8 @@
       a024f667b77de7b72f614031fe33c096b4fce4d668c5866d404efc8e0bea11ed  hicolor-icon-theme_0.13-1_all.deb
       20947b04ab3ddf48d10e733432734065f0ee4fa5ac1469bf707f18b168bf57fa  hostname_3.15ubuntu1_amd64.deb
       694a60bba0a8147b8835ca7e67c4099f401442ab57de1dcde63eef314621d2cf  ifupdown_0.7.47.2ubuntu4.4_amd64.deb
-      1faa3c963bdce7f73eae151f6ce7530640f5733efcb2d8f094aa7653ead30eab  imagemagick-common_8%3a6.7.7.10-6ubuntu3.8_all.deb
-      d0146a1ac99535a7fbc01b93f76f2c1b660eb75d086c65002c17977e2b181745  imagemagick_8%3a6.7.7.10-6ubuntu3.8_amd64.deb
+      eebcd87b62e92a191455f6e647946b1c142fdd719c8db6e091eeb063b45bf6eb  imagemagick-common_8%3a6.7.7.10-6ubuntu3.9_all.deb
+      15a300192c971ecb30cf5cede7af28adfd27f0939e7fa7a183de7f02e35109ee  imagemagick_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
       a67ca65935220a63967d22112fe6d5d60cfaf11cc2058c3d80bc2b67f3b4ff54  init-system-helpers_1.14ubuntu1_all.deb
       631ccad278d01929caf5f565a62666bb1429cffe7d55faca62f333f04cd3eb6b  initramfs-tools-bin_0.103ubuntu4.7_amd64.deb
       7460e217f621907511805aac799166a70d73751e6cee9dc8d7f4580183628998  initramfs-tools_0.103ubuntu4.7_all.deb
@@ -141,6 +143,8 @@
       14a3f5581d58e1aeff82a0c8a172d98e0741fb1f9bba9da36b9aef11eea29965  libcap2_1%3a2.24-0ubuntu2_amd64.deb
       a7c49c29ab997673f6a741e43a94f32eb6dfb1998e53ed043e04200eb0e07cc5  libcgmanager0_0.24-0ubuntu7.5_amd64.deb
       77475621670d256826fccaf2a4db86564e5ee5fafc43bd8bf6815079ffcdcc83  libck-connector0_0.4.5-3.1ubuntu2_amd64.deb
+      1314bf2170cf271f921b693f1df05bc83fb12cb9e71b679d7faaf175587815a7  libclang-common-3.4-dev_1%3a3.4-1ubuntu3_amd64.deb
+      e5a341b58d9faabe1d2e0d9b9f2dffa6922124db097d7365e46a6f47d6b18ba5  libclang1-3.4_1%3a3.4-1ubuntu3_amd64.deb
       c42936ac171d9cf5b99e5380688ee71cb153f223539310a451117d747dc794b9  libcloog-isl4_0.18.2-1_amd64.deb
       a60c9142e8179e584f7c4e534f3f7e47cf1123ca4a4f4d2461d9927365d21188  libcolord1_1.0.6-1_amd64.deb
       0bfc60d1afb59c7b70dc27826bed460487303fda57749e165e9aa61d5d842459  libcomerr2_1.42.9-3ubuntu1.3_amd64.deb
@@ -210,6 +214,7 @@
       20b56d8c72a51cdad60877ffd21011da5f0c1a0764bd1f1da6deee839472d86f  libkrb5support0_1.12+dfsg-2ubuntu5.3_amd64.deb
       45ca8e1090bcb004792c9191d250e6be027c95a8b80e5363ddde9abb0ed32aef  liblcms2-2_2.5-0ubuntu4.1_amd64.deb
       847e902a64afdcd76eaeba3d1d87623440a028f463b2a2d39e127f5e64dbc80a  libldap-2.4-2_2.4.31-1+nmu2ubuntu8.4_amd64.deb
+      5e04ad924b4d19a1d100f9aa1e14f054b10c63599cb5ac984547d8f27714def3  libllvm3.4_1%3a3.4-1ubuntu3_amd64.deb
       dbbba88d22018af5779649852d1b0a1f4313193eb23696d99bab8f63d53f4ae7  liblocale-gettext-perl_1.05-7build3_amd64.deb
       facff6985f68f294ada6a8c5675286e00d9e3817d7fd5dbdc094503eb2269bcf  liblockfile-bin_1.09-6ubuntu1_amd64.deb
       243d2a278f7b43ef4a4ae618787715bdc29aff53a5d1544863c427e1985c0727  liblockfile1_1.09-6ubuntu1_amd64.deb
@@ -219,8 +224,8 @@
       4062214896ad59759d0fe012146d7f001159b9a79fe28baea296205b53ba7cb9  liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb
       2ce9866dcdba3ca6856409d52508c219c4cee383a3473110d442010f807d57c8  liblzo2-2_2.06-1.2ubuntu1.1_amd64.deb
       a9bb62f65d43ba999248d4b1edb13adbfa1ed1310c2cde7c383ca7793d2111df  libmagic1_1%3a5.14-2ubuntu3.3_amd64.deb
-      81c0c257e1f884480dc13291c1eaf8fbcc9c6fc8137febda781169de167122bf  libmagickcore5_8%3a6.7.7.10-6ubuntu3.8_amd64.deb
-      c4426e5235c8f482b62f0898eab73fdadfc450fa37b9e34e9ae5b017782f1a49  libmagickwand5_8%3a6.7.7.10-6ubuntu3.8_amd64.deb
+      ab7c2a073c6f230575bd3452825d9a7876b10d86f37e9807d773b0a69d90b0ca  libmagickcore5_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
+      dac4624a937ddc748e7af9f3dc9e4b7cec46b6c18dcb6008ee1629a64664b88e  libmagickwand5_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
       340d11b8d9ae403abc7d7f0a072ab4fdbf049938c72211b5619cb59b83ed888b  libmodule-pluggable-perl_5.1-1_all.deb
       d6b3809ad85b82b1b6a7241c6612702504982d8edf2b91806d797c84e63fc109  libmount1_2.20.1-5.1ubuntu20.9_amd64.deb
       6102488783d30c69dc3ad4040e959fb9a137a93b0b14d64ae93d5f0326686458  libmpc3_1.0.1-1ubuntu1_amd64.deb
@@ -234,6 +239,8 @@
       d55b55029d4af7ffb4ef5c6d7fc4de580f7431f2968d9753ede419bd8f19e00c  libnih1_1.0.3-4ubuntu25_amd64.deb
       19667348def6b037bf4b83e2570ce3407b7d40c0b4b725047c971742af59915b  libnl-3-200_3.2.21-1ubuntu4.1_amd64.deb
       e451a60ac0b1a231eecfbc39b80ca85fa3f8b806e63ab591ea8d612fdc87fd82  libnl-genl-3-200_3.2.21-1ubuntu4.1_amd64.deb
+      c06547f232e20aa030e481e1280475975fef37ca3130c8ce40346d3aa0cf1399  libobjc-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb
+      200acec9825339df2f1d9988fdbfc0578cbb40c86e3540be658f2937383f0650  libobjc4_4.8.4-2ubuntu1~14.04.3_amd64.deb
       cacf7de6a143351748787061ec094279cc9ad48bc14543cb3c9afba1358fae94  libp11-kit0_0.20.2-2ubuntu2_amd64.deb
       24bd94291e6690e9fd4ffd1d6d1ffbd08801ed6151064c4bb0b36124a3c3509d  libpam-cap_1%3a2.24-0ubuntu2_amd64.deb
       6d018bfac22d9675ce78f10ea65fef3920a973b9218ebb1a9215fc8ef4a52a4d  libpam-modules-bin_1.1.8-1ubuntu2.2_amd64.deb
@@ -281,7 +288,7 @@
       7e60f2cd2710f03c7a4123b432fd97ce10a46669b7cd9b94b93214026b005c7c  libssl1.0.0_1.0.1f-1ubuntu2.22_amd64.deb
       f73e58e75c25bac399f9babefc9fb0120e084333a937065e513fc0d597cb6ddb  libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb
       4a2058e75601ecf0d74238cd17041490fbc65352010a0ffe78682ef4f2686ea3  libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb
-      c68fec75457de9cceafdc4f254ef63cf6fe52c9b37d4b46837714799a91d8beb  libsvn1_1.8.8-1ubuntu3.2_amd64.deb
+      58442bb3a98f39798d59d4f5e6fa3fa44877ef78022d28015f4800909f1e7285  libsvn1_1.8.8-1ubuntu3.3_amd64.deb
       b8de2213e740ad91dd3d400a2fddc28cc8323dd2c1e5bb850fbc359fb09ebc7c  libtasn1-6_3.4-3ubuntu0.5_amd64.deb
       b539958015d8cdc29b124d8073dcb450fc7fa99436b69038b480a5547a75755a  libterm-ui-perl_0.42-1_all.deb
       3d999514eebd87b978cde1b0e625408272824931312b1ef701319d8e85c4ece0  libtext-charwidth-perl_0.04-7build3_amd64.deb
@@ -325,13 +332,13 @@
       64e1d395ae62765fb7bb701356b44225ddf840d4332331599b59451e4132effc  libxrender1_1%3a0.9.8-1build0.14.04.1_amd64.deb
       ce6486e1bf18818735fd9b6aca6659dbfe73b3cb0d40558fb559fae3dc1746b0  linux-firmware_1.127.23_all.deb
       39b3c737d14c9bcada6bd79f7da8d0e74deba15fe76feb8e10bf29462d610c89  linux-image-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      bffefb8cceec5c4c9ca565c3d864568804008dffc3f804d518bbc5a0dfed9223  linux-image-3.13.0-125-generic_3.13.0-125.174_amd64.deb
+      55edfa5165b2f3155759531ceecbcfe131e5d593c8d0de10c1ebab652edd00c1  linux-image-3.13.0-128-generic_3.13.0-128.177_amd64.deb
       4ca3fdcb3da83993f23c66b464e657a8d3ad7922f48623b6f25e5f33452078cd  linux-image-extra-3.13.0-123-generic_3.13.0-123.172_amd64.deb
-      436ff0b8b264e6115c4f8aa0183282de3809c0e37783e27213afd04adf25273d  linux-image-extra-3.13.0-125-generic_3.13.0-125.174_amd64.deb
-      157b8dad9ee9e09927c71333d26f8e454efed51e2cdc64b3c3a1aea233e0500a  linux-image-generic_3.13.0.125.135_amd64.deb
+      c0086c6e5b59a12b633b043203c850428bf001ccd56039ed159972b2b5fdf2c0  linux-image-extra-3.13.0-128-generic_3.13.0-128.177_amd64.deb
+      6704898a6e92b26593e5041d5639fc7afa6cfe03d3784d1d90c409cfe07ef369  linux-image-generic_3.13.0.128.137_amd64.deb
       d8db3ab2c5d6e3001a35c3fee6d49bda2901e37b22ba63e1ab62d651716ef095  linux-image-virtual_3.13.0.123.133_amd64.deb
-      098b6d6a5810229058376a205d120d09fbf48fc71576840914979402434d9d4a  linux-image-virtual_3.13.0.125.135_amd64.deb
-      63915ad5776550b7be1c4246600cfd27a44e54ca44e7c3deab8520a5f15c7c9d  linux-libc-dev_3.13.0-125.174_amd64.deb
+      2717a92e940edd6b84f18f669c241d7b9fa2b9ab8d4b3cf689bb2c1dac4a9d05  linux-image-virtual_3.13.0.128.137_amd64.deb
+      109e95109b626db61f22653ef23f0e54b57c6bb22f09a0359fa380e51a994bf7  linux-libc-dev_3.13.0-128.177_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       c375ea23cf7c61fdc7d2029b6661481d2163d6fec6c5fd78ec8fd8fd5ce4c048  lockfile-progs_0.1.17_amd64.deb
       dc6f2853f4fe43a4f29dbb708a1d60fc2ebcdaecc4e552bd6b534ec08e0196a7  login_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
@@ -394,7 +401,7 @@
       de75c4690051dfb43c8faa8f37afe276f78d41dc89d9258fa080e6a7a450c826  sensible-utils_0.0.9_all.deb
       1f8cc36e8adc14c5e20f96240cd9920ef578c7a517a91814f8a199e5d83ff8fc  shared-mime-info_1.2-0ubuntu3_amd64.deb
       14e778ad33664ead8275708a76c209417906f3db64e711df0711050fd7491d13  ssh-import-id_3.21-0ubuntu1_all.deb
-      5cdbd9c62c8ff42c4e2a9cda9472df346454f5fb1211471eb465feb7e4ab731b  subversion_1.8.8-1ubuntu3.2_amd64.deb
+      134a33656ac803a76d480d7a3286cf832fd244ebeb05e4399e9f8ed725c42bc7  subversion_1.8.8-1ubuntu3.3_amd64.deb
       7d2382b89255bf6a260fc7d9365cfd2f3950e954bcc39a05ce505fea9f6adfba  sudo_1.8.9p5-1ubuntu1.4_amd64.deb
       6871cc9dc074524d426611e90cc13e5c23eac544a8bdcbc49b9fc8f02ee9f725  sysv-rc_2.88dsf-41ubuntu6.3_all.deb
       aafbbc83fb16ed1fada82d2e57e310baad0678ab32bb358ce0a2e0fc13c544b1  sysvinit-utils_2.88dsf-41ubuntu6.3_amd64.deb
@@ -510,10 +517,18 @@
 - cache_package_manifest: |
     4162f13db852c75374513bda8b70de3dd2b807df592d6bd203727df01dce401d  x86_64-apple-darwin11/bdb/bdb-4.8.30-78a1c9503d7.tar.gz
     f894f9587ef85e9d4c881ca881cf64fe857e95a062d4d68209594e709a9be9da  x86_64-apple-darwin11/bdb/bdb-4.8.30-78a1c9503d7.tar.gz.hash
+    c57a0fbfffd0ef1a12e8ef16fd7543e77cc0c89e91ff8ebca05709418da115c3  x86_64-apple-darwin11/bdb/bdb-4.8.30-ef1de6b7db4.tar.gz
+    b14e47fbb86fc7d330de3eaa7f4f63d37a7ebb83d0b9857a468f35f96428baf9  x86_64-apple-darwin11/bdb/bdb-4.8.30-ef1de6b7db4.tar.gz.hash
     f5266b2c578b5a5bcb26280df924b87884380b3217cccbc2dc7b57da049369c6  x86_64-apple-darwin11/boost/boost-1_59_0-57f983f937d.tar.gz
     4b13dbe4e948630bfd71c6f6d8ccc40690009f7725df04ce0c8a36137abb5050  x86_64-apple-darwin11/boost/boost-1_59_0-57f983f937d.tar.gz.hash
+    bf373bc1e4d8dc3ac1a7787271261b45cefe70636fd1ed262ec56fc945854858  x86_64-apple-darwin11/boost/boost-1_59_0-f0c5f4ac25a.tar.gz
+    600374e600c05586ee4cda7bc5d9c04b319eee0fbeba4e706a21f079306ef54d  x86_64-apple-darwin11/boost/boost-1_59_0-f0c5f4ac25a.tar.gz.hash
     289bc3e4ea70fd378ea4c0d2adaa2a0b9b2a421062726709af6e9a266e91d137  x86_64-apple-darwin11/libevent/libevent-2.0.22-3975043169f.tar.gz
     f26473f16de3c9312dbb7b51c83742026c0d6ba6aa55e6323eb82ff037cf3903  x86_64-apple-darwin11/libevent/libevent-2.0.22-3975043169f.tar.gz.hash
+    7c1b323a76b8f75e33dfbe22534d8d50d1bc694e58ccd3561ac990ce857d8632  x86_64-apple-darwin11/libevent/libevent-2.0.22-5f882aef858.tar.gz
+    269732950b5d0cb46400d10d2ee74d7843ef36d31077f605fdd05a4ab30d671a  x86_64-apple-darwin11/libevent/libevent-2.0.22-5f882aef858.tar.gz.hash
+    094e9e2a42d41a6502a0b4137f74b3c87edec2558700c80bcd447f788be4cec2  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0.20170509-38fe2e80a6a.tar.gz
+    067c83a338413fc6f7e90d2b20cd433f86b28829ad36372bbdf2e46a09628165  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0.20170509-38fe2e80a6a.tar.gz.hash
     e1e4d75453a5f7fba9ac837ba993306b380bb7f114b89c9572fef31f0f8862ab  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0.20170509-a3f229f8155.tar.gz
     aabb3bc42e57a7d135b850637acadd306a5827b10f1d721580bf440d8d25bc93  x86_64-apple-darwin11/miniupnpc/miniupnpc-2.0.20170509-a3f229f8155.tar.gz.hash
     8ed37753f7185112216e5e77b5d7351d6907cead833cd8a096ccf147aa93a180  x86_64-apple-darwin11/native_biplist/native_biplist-0.9-710b4b7c1f4.tar.gz
@@ -536,14 +551,24 @@
     ae15e13544ab0bdea97a4ce784c144d8cb752feb880eaec9ff09a9d3eace2532  x86_64-apple-darwin11/native_protobuf/native_protobuf-2.6.1-a03556194f4.tar.gz.hash
     e1b944e51d54814865880a51db752340e032bb1543977cca6bedf47c5cf88825  x86_64-apple-darwin11/openssl/openssl-1.0.1k-5063dd003d7.tar.gz
     2f7906c5aaaf2a5240302d71637038ec58dd7a3a56885bdcbf15a951c4b5bd8d  x86_64-apple-darwin11/openssl/openssl-1.0.1k-5063dd003d7.tar.gz.hash
+    c9f0841d66c50d6780dcf5c083aca634e12b0f6f844be9e960a80b775a990fe5  x86_64-apple-darwin11/openssl/openssl-1.0.1k-5baeab2a30f.tar.gz
+    57b670f05cc14a01402f49d58bffba149e10a27038bbc7a5fe5b457cfd804e80  x86_64-apple-darwin11/openssl/openssl-1.0.1k-5baeab2a30f.tar.gz.hash
+    7b5aff669860eba33e810a0d24647b98507c9e4570b54e5a5b23d3528801f784  x86_64-apple-darwin11/protobuf/protobuf-2.6.1-832526e502c.tar.gz
+    f67b2efb38cf24e3c5c78d0aebe06dd4a06f7ee5958801f178bd6e02af6f4645  x86_64-apple-darwin11/protobuf/protobuf-2.6.1-832526e502c.tar.gz.hash
     f88a4d44b4e9924b176c11785272776c3b166ca0ea56a8ad110cac1ad42aa6e6  x86_64-apple-darwin11/protobuf/protobuf-2.6.1-a968c3c8f10.tar.gz
     5b690e0041298bef2429e83f5ee5cb19b997999be01f20c99d0b7591572d08ad  x86_64-apple-darwin11/protobuf/protobuf-2.6.1-a968c3c8f10.tar.gz.hash
     c186ddfa11227b305e7034d2546ced40547bb5fb92336348f5cb4f2b3f38d922  x86_64-apple-darwin11/qrencode/qrencode-3.4.4-6dfa1544078.tar.gz
     e455aa364275287e2fc78ab779e8777241da23991555970f319070e69bc82815  x86_64-apple-darwin11/qrencode/qrencode-3.4.4-6dfa1544078.tar.gz.hash
+    7d89d7613d81ab060db141181b4bfca4971714cfec6f0994ae659af560a602d7  x86_64-apple-darwin11/qrencode/qrencode-3.4.4-8e30a25926a.tar.gz
+    ac9f346a0651bffd307afda00d8a6d2424a28c947dffce4d13544b383631e7ff  x86_64-apple-darwin11/qrencode/qrencode-3.4.4-8e30a25926a.tar.gz.hash
     af72bd8980542120d1957e33e9da172c3d935e78673a839c90bbccb275c057c5  x86_64-apple-darwin11/qt/qt-5.6.1-0e3fb7a4c63.tar.gz
     cdc7f3129ac4d14764e31c846785146ed40842c54682fb4c45b62a54b0123c9e  x86_64-apple-darwin11/qt/qt-5.6.1-0e3fb7a4c63.tar.gz.hash
+    e26627ca4cfcd7d9d62bc77498d55ecef3f9d74cb2e4cc9816fd3597212a5447  x86_64-apple-darwin11/qt/qt-5.6.1-3c9df9f6c8f.tar.gz
+    f7c68f16e881cbebed1da7fb84759590aeb3e1571f823ced559f4c9a5bb7cffc  x86_64-apple-darwin11/qt/qt-5.6.1-3c9df9f6c8f.tar.gz.hash
     9efb31b49c702ca5afc1d5c5b3fca97a8e8617621f8c4ceabfff8deccbb27331  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-1b25312d2bb.tar.gz
     ec35755dbc5ef0a317eb712694e82b343f1704578587f9fa631be4332ebc3202  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-1b25312d2bb.tar.gz.hash
+    9e0333157bce05eebadcd8e01b7125c84a3a0d31204da107758396452b05958b  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-29f19d95dba.tar.gz
+    38a743d4ce57fa27a6f844492fc81794c40f8e4d3495bfd7142174d6dcdbef33  x86_64-apple-darwin11/zeromq/zeromq-4.1.4-29f19d95dba.tar.gz.hash
 - release: gio.0.1.6-osx-unsigned
 - name: graviocoin-osx-0.1.6
 - type: build
