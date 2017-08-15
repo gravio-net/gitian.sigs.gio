@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    08cb30507a8ec4c6f7811eea83737cc92e713861a83c2147197bb6ddf8ecefaf  graviocoin-0.1.6-osx-unsigned.dmg
-    004c0a2c81c227569ef7e0913124be2af0a850fb1248c6d09195efa2fc4c80c1  graviocoin-0.1.6-osx-unsigned.tar.gz
-    4e1096678690708fa8a26968fb3582fed3f46a3d32c55bca3adacfa82ef95de0  graviocoin-0.1.6-osx64.tar.gz
-    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
+    bb7b6ba3f8a40fbbc64e1d2aa9946a983032bf26c2dd6c274832fe972cb20b00  graviocoin-0.1.6-osx-unsigned.dmg
+    41ca927d6d7aec848ea6a6d994a3c55e817d8db4379b8724377a9dd491600d07  graviocoin-0.1.6-osx-unsigned.tar.gz
+    107c71bca9e6207e155f10cbd3f0199c1a44b0c1117474f4da8dc42e32223237  graviocoin-0.1.6-osx64.tar.gz
+    d8045e3941cd20f5c83e051345e8fcd1ada9ca0371e9a134d9b006f9431c3e28  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
     9626628a937d9a33d56a55d6ac8677c1eff68e494b36b7f52dae1e5048f9694e  graviocoin-osx-0.1.6-desc.yml
     1df230ac495b0654542af1b2319cbe46850ca6d776b47b3430bf0e2a200fe0b6  MacOSX10.11.sdk.tar.gz
-    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
+    git:93bdeda6a7b0081f6719c8cafa343d211b8678db graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

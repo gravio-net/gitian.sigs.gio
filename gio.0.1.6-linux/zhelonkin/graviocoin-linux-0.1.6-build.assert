@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    e0090fb6b3d2b2451ce19059f7a264998c893c369ea2a4bb7453d299240b5458  graviocoin-0.1.6-aarch64-linux-gnu-debug.tar.gz
-    4e57e44fd3e1ad8c971ef266f017a050d24a4d372383e0da385121d5099b5445  graviocoin-0.1.6-aarch64-linux-gnu.tar.gz
-    d0f080e3c789f63097db371e33bdf1063f73be6efc46f00c4ce28d065d34f9be  graviocoin-0.1.6-arm-linux-gnueabihf-debug.tar.gz
-    5991937f6c24ed56829b6d6d6f9a2e917c67e28b3cf6365d2f08314190add873  graviocoin-0.1.6-arm-linux-gnueabihf.tar.gz
-    f01d4f9caf3432dda6eb5416017359485c2dfef982c8922d884bee37cd1e57c8  graviocoin-0.1.6-i686-pc-linux-gnu-debug.tar.gz
-    5ec492e615d610304efdd6cacc791efdf6852a5eaf36379682d17a08b9ec67e2  graviocoin-0.1.6-i686-pc-linux-gnu.tar.gz
-    25e165d235f0a4f6f8964990d0d342273053240cd4f34913e17c6bb07252be17  graviocoin-0.1.6-x86_64-linux-gnu-debug.tar.gz
-    caf7a82304006f5cb20aedaef58d80eb72188fd5cb7359279f296243aa767b72  graviocoin-0.1.6-x86_64-linux-gnu.tar.gz
-    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
+    04be8f73093278065dcda9cde86ea12ba1b5af0b711564786700f72de72e4c48  graviocoin-0.1.6-aarch64-linux-gnu-debug.tar.gz
+    49f07c622619849561d8854d842dbab7361a392454266af185e767ee865cff40  graviocoin-0.1.6-aarch64-linux-gnu.tar.gz
+    aa163bf8bdd5de97d096bbdefb3c1e0403bf25c17a4d5e25b2273bd57adf2407  graviocoin-0.1.6-arm-linux-gnueabihf-debug.tar.gz
+    ce58f7b42edecc86e19ba4b9be0cd44b3d58ca02ee756ba8ca39385cc3c8d23f  graviocoin-0.1.6-arm-linux-gnueabihf.tar.gz
+    8713f7ecd7d01ffe45eabe0d6bfd4771d2022759183a565d5954b932399286b8  graviocoin-0.1.6-i686-pc-linux-gnu-debug.tar.gz
+    9e990f056071518bdbd516148992ca4d13965057a5b21778fc9cd51ed00be056  graviocoin-0.1.6-i686-pc-linux-gnu.tar.gz
+    1c9595ab6403b784d47f2858c6215070befcc105128f2be5ad7b90aeb045182b  graviocoin-0.1.6-x86_64-linux-gnu-debug.tar.gz
+    9bb506d915cf71bc75c22a9b207f7d41bf0e568ab3a39aaeb5cdc5c23bbd01d6  graviocoin-0.1.6-x86_64-linux-gnu.tar.gz
+    d8045e3941cd20f5c83e051345e8fcd1ada9ca0371e9a134d9b006f9431c3e28  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
     b47c4a1bc896386147c6025af142534c7d65da47aeb68f82d8592fd34baaf0b1  graviocoin-linux-0.1.6-desc.yml
-    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
+    git:93bdeda6a7b0081f6719c8cafa343d211b8678db graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

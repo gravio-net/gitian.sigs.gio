@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    650f9923595f5716cdc75e4e058025b7c2c6aa221306377c229194046b9b0b61  graviocoin-0.1.6-win-unsigned.tar.gz
-    73f9e9b21051c05f4d1899f27beaf9227c2e178649e8bcb7fbfbf35e8d80fbdf  graviocoin-0.1.6-win32-debug.zip
-    d2509eed06f48e9c6aae23e258b3d925205e33c24b4b85d5ff0786a8295e3333  graviocoin-0.1.6-win32-setup-unsigned.exe
-    a89b2b62c7573976486bfff4bdda781aa45cc22a33a59fb9825fd41fe1dbcb47  graviocoin-0.1.6-win32.zip
-    8bd9502f63d929d229650ba11f3d37916a069d0f338509c62f2dd446513a3833  graviocoin-0.1.6-win64-debug.zip
-    64e4ec4ac781e55c5c898ee21bedd0d9348045a10252eece0603e9c531d6a34e  graviocoin-0.1.6-win64-setup-unsigned.exe
-    4bf3da790cd9677975f2caf2d4c2c4bcce9777e145e3b4035c88d138a95315bf  graviocoin-0.1.6-win64.zip
-    8cf768f856374871668d8221897fbcbcfed126c150cd03c4dcb054e1b3c457af  src/graviocoin-0.1.6.tar.gz
+    785996ff76bcb37533c0e58bebeeca654169a8d1f6241fc72702fec3eef17bd9  graviocoin-0.1.6-win-unsigned.tar.gz
+    472c87eb1004fb388557c0b604d517993ba49bf62438d173b8f70fb9bafb742c  graviocoin-0.1.6-win32-debug.zip
+    620b9af9730b38fb129a55ed168b2fd98b0fdd591558d11dbb6417ddf136d716  graviocoin-0.1.6-win32-setup-unsigned.exe
+    31d2d206d828814c471086c1bb816e3fb2d7dd73cede532b4ba5644c82772b44  graviocoin-0.1.6-win32.zip
+    a25934917c0b291b3e670a7941f99f7e28cc1a0a6f1e240349b41f2c71404af0  graviocoin-0.1.6-win64-debug.zip
+    589cc86cdabb085595f5959691fc62ccbca22ccf8e100d8e24e69bb73feb2a9c  graviocoin-0.1.6-win64-setup-unsigned.exe
+    a3437067c055c1c6006bb2db6586c6f6e8df752de420550521d019202999736e  graviocoin-0.1.6-win64.zip
+    d8045e3941cd20f5c83e051345e8fcd1ada9ca0371e9a134d9b006f9431c3e28  src/graviocoin-0.1.6.tar.gz
 - in_manifest: |-
     6828c00e51b19eb58911d78143b1b9dd87d5f8acab4e921e98596448ea878ad6  graviocoin-win-0.1.6-desc.yml
-    git:60f0414592c7483b676311ccb745275f82b32536 graviocoin
+    git:93bdeda6a7b0081f6719c8cafa343d211b8678db graviocoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
